@@ -13,6 +13,6 @@ certbot-dns-qcloud
 
 `git clone https://github.com/certbot/certbot`
 
-- certbot目录下执行（php开头的`define`处要填写api接口的验证凭证）
+- certbot目录下执行命令（PS：脚本目录php开头的`define`处要填写DNS服务商的验证信息，获取方式见相应平台的api文档）
 
 `certbot-auto renew --cert-name [域名] --manual-auth-hook /[脚本目录]/au.sh`
