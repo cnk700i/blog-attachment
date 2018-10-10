@@ -11,7 +11,7 @@ certbot-dns-qcloud
 # 使用方法
 - 安装certbot工具
 
-`git clone https://github.com/certbot/certbot`
+`git clone https://github.com/letsencrypt/letsencrypt`
 
 - certbot目录下执行命令（PS：脚本目录php开头的`define`处要填写DNS服务商的验证信息，获取方式见相应平台的api文档）
 
