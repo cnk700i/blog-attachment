@@ -1,10 +1,8 @@
 <?php
-### API文档https://cloud.tencent.com/document/api/302/4031
-### example: php qcloud.php  "test.cn" "subdomain" "value"
-
 error_reporting(E_ALL);
 date_default_timezone_set("GMT");
 
+### API文档https://cloud.tencent.com/document/api/302/4031
 define("secretId", "");
 define("secretKey", "");
 
