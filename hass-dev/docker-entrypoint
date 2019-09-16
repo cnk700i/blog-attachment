@@ -1,0 +1,5 @@
+#!/bin/bash
+# if [ -d "/sync" ]; then
+# fi
+/usr/sbin/sshd -D
+exec "$@"
